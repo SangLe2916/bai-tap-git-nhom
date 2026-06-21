@@ -1,4 +1,4 @@
 def tinh_thue_thu_nhap(thu_nhap):
-  #TODO: Sinh vien se cap nhat cong thuc tinh thue o day
-  return 0
-print("Thue phai nop cua ban la:", tinh_thue_thu_nhap(10000000))
+  #Dev A ap dung giam tru 4 trieu va thue 5%
+  thu_nhap_tinh_thue = thu_nhap - 4000000
+  return max(0,thu_nhap_tinh_thue*0.05)
