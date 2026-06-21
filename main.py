@@ -1,3 +1,4 @@
 def tinh_thue_thu_nhap(thu_nhap):
-  #Dev B ap dung muc thue 10%
-  return thu_nhap*0.1
+  #Ket hop dev A va dev B
+  thu_nhap_tinh_thue = thu_nhap - 4000000
+  return max(0,thu_nhap_tinh_thue*0.1)
